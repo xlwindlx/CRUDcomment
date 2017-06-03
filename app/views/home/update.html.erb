@@ -1,0 +1,8 @@
+<div class="container">
+    <form action="/home/edit" method="POST">
+        <input type="hidden" name="post_id" value="<%=@post.id%>">
+        <input type="text" name="satang" value="<%=@post.title%>" placeholder="제목"><br>
+        <textarea name="kimbab" rows="8" cols="40" placeholder="내용"><%=@post.content%></textarea><br>
+        <input type="submit" value="수정하기">
+    </form>
+</div>

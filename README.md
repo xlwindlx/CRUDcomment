@@ -1,0 +1,1 @@
+![댓글 메소드에러](./assets/images/error.JPG)
